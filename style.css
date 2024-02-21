@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.cover{
+    margin: 0;
+    border: 0;
+    min-height: 60ch;
+    background-color: goldenrod;
+    background-size: cover;
+}
+.div1{
+    margin: 0;
+}
+
+.navbar{
+    margin-top: 25px;
+    display: inline-block;
+}
+.navbar ul h1{
+    display: inline-block;
+    margin: 0;
+    margin-right: 485px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+}
+.navbar ul h1:hover{
+     right: 10px;
+     bottom: 4px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 22px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar ul li a:hover{
+    color: aqua;
+    font-size: 24px;
+}
+
+.div2{
+    display: flex;
+    margin: 52px;
+    margin-top: 106px
+
+}
+.about{
+    text-align: center;
+    margin-top: 58px;
+    
+}
+.about h1{
+    color: white;
+    font-size: 34px;
+    margin: 0;
+    width: 556px;
+    position: relative;
+    left: 43px;
+}
+.about h1:hover{
+    text-transform: uppercase;
+    transition: 1s, ease;
+}
+.about .article{
+    margin-top: 22px;
+    margin-bottom: 26px;
+    color: grey;
+    font-size: 16px;
+
+}
+.about .button{
+    margin: 0;
+    display: inline-block;
+
+}
+.about .button button{
+    color: brown;
+    background-color: grey;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 10px;
+    height: 27px;
+    width: 89px;
+}
+ .about .button button:hover{
+    background-color: brown;
+    color: grey;
+ }
+ .image{
+    margin: 0;
+ }
+ .image img{
+    height: 264px;
+    width: 356px;
+    position: relative;
+ }
+ .image img:hover{
+     bottom: 12px;
+     right: 15px;
+ }
+
+ .div3{
+    display: flex;
+    margin: 0;
+    margin-top: 106px;
+ }
+ .div3 .skills{
+    text-align: center;
+    margin-top: 58px;
+    margin-left: 77px;
+ }
+ .skills h1{
+    color: white;
+    font-size: 34px;
+    margin: 0;
+    width: 556px;
+ }
+ .skills h1:hover{
+    font-size: 36px;
+    text-transform: uppercase;
+ }
+ .skills p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ 
+ .image2 {
+    height: 4%;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 170px;
+ }
+ .image2 img{
+    height: 281px;
+    position: absolute;
+    top: 60px;
+    left: 70%;
+    bottom: 4px;
+    transform: translateX(-40%);
+    transition: top 1s, left 1s;
+ }
+ .image2:hover .boy{
+    top: -60%;
+ }
+ .image2:hover .super{
+    left: 40%;
+ }
+ 
+ .div4{
+    margin-top: 106px;
+    text-align: center;
+    margin-left: 40px;
+ }
+ .div4 h1{
+    font-size: 34px;
+    color: white;
+    margin-bottom: 56px;
+    padding-right: 14px;
+ }
+ .div4 h1:hover{
+    font-size: 36px;
+    text-transform: uppercase;
+ }
+
+.div4 p button{
+    height: 93px;
+    width: 334px;
+    color: aqua;
+    background-color: grey;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 64px;
+    margin-bottom: 96px;
+    font-size: 34px;
+    margin-left: 40px;
+}
+.div4 p button:hover{
+    color: grey;
+    background-color: aqua;
+}
+.div4 button{
+    height: 32px;
+    width: 189px;
+    color: aqua;
+    background-color:grey;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 0;
+    border: 0;
+}
+.div4 button:hover{
+    color: grey;
+    background-color: aqua; 
+}
+
+
+.div5{
+    margin-top: 106px;
+    text-align: center;
+}
+.div5 h1{
+    font-size: 34px;
+    color: white;
+    margin-bottom: 30px;
+}
+.div5 h1:hover{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.div5 p{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: grey;
+    font-size: 26px;
+    font-weight: bold;
+}
+.div5 p em{
+    color: red;
+}
+.div5 button{
+    color: white;
+    background-color:greenyellow;
+    height: 62px;
+    width: 304px;
+    font-size: 27px;
+    border-radius: 10px;
+}
+.div5 button:hover{
+    color: greenyellow;
+    background-color: white;
+}
+.div6{
+    margin-top: 106px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div6 .contact{
+    margin: 52px;
+    padding-left: 24px;
+    padding-right: 56px;
+}
+.contact h1{
+    color: white;
+    font-size: 34px;
+    margin-bottom: 4px;
+
+}
+.contact h1:hover{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.contact h4{
+    color: red;
+    margin-bottom: 20px;
+}
+.contact p{
+   color: grey;
+   font-size: 24px;
+}
+.div6 .image3{
+    margin: 0;
+    padding-right: 24px;
+}
+.image3 img{
+    height: 276px;
+    width: 398px;
+    position: relative;
+}
+.image3 img:hover{
+   bottom: 12px;
+   right: 15px;
+   height: 290px;
+   width: 413px;
+}
+ 
+footer{
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+    margin-top: 79px;
+}
+
